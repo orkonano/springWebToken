@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+ <description>Tag Library para el del token en las páginas jsp.</description>
+ <tlib-version>1.0</tlib-version>
+ <short-name>token</short-name>
+ <uri>http://www.orko-dev.com/token/tags</uri>
+ <tag>
+  <description>Decide si una transición puede realizarse y de esta forma podemos filtrar contenido que definen acciones.</description>
+  <name>createToken</name>
+  <tag-class>orko.dev.springWebToken.tags.TokenTag</tag-class>
+  <body-content>JSP</body-content>
+ </tag>
+</taglib>
