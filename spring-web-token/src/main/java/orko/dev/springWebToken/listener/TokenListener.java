@@ -7,8 +7,6 @@ import javax.servlet.http.HttpSessionListener;
 import orko.dev.springWebToken.TokenManager;
 import orko.dev.springWebToken.TokenManagerImpl;
 
-
-
 public class TokenListener implements HttpSessionListener {
 
 	@Override
